@@ -13,7 +13,7 @@
   <ItemDefinitionGroup>
     <ClCompile>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <LinkIncremental>true</LinkIncremental>
     </ClCompile>
   </ItemDefinitionGroup>
