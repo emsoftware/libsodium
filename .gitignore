@@ -54,6 +54,7 @@ libsodium-android-*
 libsodium-ios
 libsodium-js
 libsodium-js-*
+libsodium-macos-*
 libsodium-nativeclient
 libsodium-nativeclient-*
 libsodium-osx
