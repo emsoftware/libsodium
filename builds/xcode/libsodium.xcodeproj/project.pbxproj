@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXGroup section */
+		8397BD76293FCF5100C8353C = {
+			isa = PBXGroup;
+			children = (
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		831DCCD929402178000A5F8A /* libsodium-10.14 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = 831DCCDA29402178000A5F8A /* Build configuration list for PBXLegacyTarget "libsodium-10.14" */;
+			buildPhases = (
+			);
+			buildToolPath = "$(PROJECT_DIR)/libsodium-make.sh";
+			buildWorkingDirectory = ../..;
+			dependencies = (
+			);
+			name = "libsodium-10.14";
+			passBuildSettingsInEnvironment = 1;
+			productName = libsodium;
+		};
+		831DCCDC294021B7000A5F8A /* libsodium-10.15 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = 831DCCDD294021B7000A5F8A /* Build configuration list for PBXLegacyTarget "libsodium-10.15" */;
+			buildPhases = (
+			);
+			buildToolPath = "$(PROJECT_DIR)/libsodium-make.sh";
+			buildWorkingDirectory = ../..;
+			dependencies = (
+			);
+			name = "libsodium-10.15";
+			passBuildSettingsInEnvironment = 1;
+			productName = libsodium;
+		};
+		8397BD7B293FCF5100C8353C /* libsodium-10.13 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = 8397BD7E293FCF5100C8353C /* Build configuration list for PBXLegacyTarget "libsodium-10.13" */;
+			buildPhases = (
+			);
+			buildToolPath = "$(PROJECT_DIR)/libsodium-make.sh";
+			buildWorkingDirectory = ../..;
+			dependencies = (
+			);
+			name = "libsodium-10.13";
+			passBuildSettingsInEnvironment = 1;
+			productName = libsodium;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		8397BD77293FCF5100C8353C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					8397BD7B293FCF5100C8353C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 8397BD7A293FCF5100C8353C /* Build configuration list for PBXProject "libsodium" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8397BD76293FCF5100C8353C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8397BD7B293FCF5100C8353C /* libsodium-10.13 */,
+				831DCCD929402178000A5F8A /* libsodium-10.14 */,
+				831DCCDC294021B7000A5F8A /* libsodium-10.15 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		831DCCDB29402178000A5F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+			};
+			name = Release;
+		};
+		831DCCDE294021B7000A5F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+			};
+			name = Release;
+		};
+		8397BD7D293FCF5100C8353C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CFLAGS = "-arch x86_64 -arch arm64 -mmacosx-version-min=$(MACOSX_DEPLOYMENT_TARGET) -O2 -g";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_DIR = "$(PROJECT_DIR)/../../../../../builds/libsodium/$(INSTALL_PATH)";
+				INSTALL_PATH = "/macos-$(MACOSX_DEPLOYMENT_TARGET)-universal2";
+				LDFLAGS = "-mmacosx-version-min=$(MACOSX_DEPLOYMENT_TARGET)";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = libsodium;
+			};
+			name = Release;
+		};
+		8397BD80293FCF5100C8353C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		831DCCDA29402178000A5F8A /* Build configuration list for PBXLegacyTarget "libsodium-10.14" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831DCCDB29402178000A5F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		831DCCDD294021B7000A5F8A /* Build configuration list for PBXLegacyTarget "libsodium-10.15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831DCCDE294021B7000A5F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8397BD7A293FCF5100C8353C /* Build configuration list for PBXProject "libsodium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8397BD7D293FCF5100C8353C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8397BD7E293FCF5100C8353C /* Build configuration list for PBXLegacyTarget "libsodium-10.13" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8397BD80293FCF5100C8353C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8397BD77293FCF5100C8353C /* Project object */;
+}
