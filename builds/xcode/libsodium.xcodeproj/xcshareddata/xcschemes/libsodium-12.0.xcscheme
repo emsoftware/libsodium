@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "831DCCD929402178000A5F8A"
-               BuildableName = "libsodium-10.14"
-               BlueprintName = "libsodium-10.14"
+               BlueprintIdentifier = "831AABF02CAB24EA000B94C0"
+               BuildableName = "libsodium-12.0"
+               BlueprintName = "libsodium-12.0"
                ReferencedContainer = "container:libsodium.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -49,9 +49,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "831DCCD929402178000A5F8A"
-            BuildableName = "libsodium-10.14"
-            BlueprintName = "libsodium-10.14"
+            BlueprintIdentifier = "831AABF02CAB24EA000B94C0"
+            BuildableName = "libsodium-12.0"
+            BlueprintName = "libsodium-12.0"
             ReferencedContainer = "container:libsodium.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
