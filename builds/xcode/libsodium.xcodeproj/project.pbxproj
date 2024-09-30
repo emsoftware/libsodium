@@ -16,6 +16,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
+		831AABF02CAB24EA000B94C0 /* libsodium-12.0 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = 831AABF12CAB24EA000B94C0 /* Build configuration list for PBXLegacyTarget "libsodium-12.0" */;
+			buildPhases = (
+			);
+			buildToolPath = "$(PROJECT_DIR)/libsodium-make.sh";
+			buildWorkingDirectory = ../..;
+			dependencies = (
+			);
+			name = "libsodium-12.0";
+			passBuildSettingsInEnvironment = 1;
+			productName = libsodium;
+		};
 		831DCCD929402178000A5F8A /* libsodium-10.14 */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "";
@@ -87,11 +101,19 @@
 				8397BD7B293FCF5100C8353C /* libsodium-10.13 */,
 				831DCCD929402178000A5F8A /* libsodium-10.14 */,
 				831DCCDC294021B7000A5F8A /* libsodium-10.15 */,
+				831AABF02CAB24EA000B94C0 /* libsodium-12.0 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
+		831AABF22CAB24EA000B94C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
 		831DCCDB29402178000A5F8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -170,6 +192,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		831AABF12CAB24EA000B94C0 /* Build configuration list for PBXLegacyTarget "libsodium-12.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831AABF22CAB24EA000B94C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		831DCCDA29402178000A5F8A /* Build configuration list for PBXLegacyTarget "libsodium-10.14" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
