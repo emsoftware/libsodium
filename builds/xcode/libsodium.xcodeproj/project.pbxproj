@@ -6,6 +6,16 @@
 	objectVersion = 54;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		8353B6122E822628000CB5C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8397BD77293FCF5100C8353C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8353B5E52E822109000CB5C0;
+			remoteInfo = "libsodium-13.0";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXGroup section */
 		8397BD76293FCF5100C8353C = {
 			isa = PBXGroup;
@@ -58,6 +68,20 @@
 			passBuildSettingsInEnvironment = 1;
 			productName = libsodium;
 		};
+		8353B5E52E822109000CB5C0 /* libsodium-13.0 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = 8353B5E62E822109000CB5C0 /* Build configuration list for PBXLegacyTarget "libsodium-13.0" */;
+			buildPhases = (
+			);
+			buildToolPath = "$(PROJECT_DIR)/libsodium-make.sh";
+			buildWorkingDirectory = ../..;
+			dependencies = (
+			);
+			name = "libsodium-13.0";
+			passBuildSettingsInEnvironment = 1;
+			productName = libsodium;
+		};
 		8397BD7B293FCF5100C8353C /* libsodium-10.13 */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "";
@@ -67,6 +91,7 @@
 			buildToolPath = "$(PROJECT_DIR)/libsodium-make.sh";
 			buildWorkingDirectory = ../..;
 			dependencies = (
+				8353B6132E822628000CB5C0 /* PBXTargetDependency */,
 			);
 			name = "libsodium-10.13";
 			passBuildSettingsInEnvironment = 1;
@@ -102,9 +127,18 @@
 				831DCCD929402178000A5F8A /* libsodium-10.14 */,
 				831DCCDC294021B7000A5F8A /* libsodium-10.15 */,
 				831AABF02CAB24EA000B94C0 /* libsodium-12.0 */,
+				8353B5E52E822109000CB5C0 /* libsodium-13.0 */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXTargetDependency section */
+		8353B6132E822628000CB5C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8353B5E52E822109000CB5C0 /* libsodium-13.0 */;
+			targetProxy = 8353B6122E822628000CB5C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		831AABF22CAB24EA000B94C0 /* Release */ = {
@@ -125,6 +159,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
+			};
+			name = Release;
+		};
+		8353B5E72E822109000CB5C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 			};
 			name = Release;
 		};
@@ -212,6 +253,14 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				831DCCDE294021B7000A5F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8353B5E62E822109000CB5C0 /* Build configuration list for PBXLegacyTarget "libsodium-13.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8353B5E72E822109000CB5C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
